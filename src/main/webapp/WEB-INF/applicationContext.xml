@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	      http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+    Please ensure:
+     * all Spring config happens in SpringConfig class
+     * no component-scan is used
+     * no autowiring is used
+    -->
+    <context:annotation-config/>
+
+    <bean id="springConfig" class="com.home.config.SpringConfig"/>
+</beans>
